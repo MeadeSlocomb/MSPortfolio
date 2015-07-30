@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.background {
+  background-image: url(../images/tree-801993.jpg);
+  width: 100%;
+  height: 2525px;
+}
+
+.main-nav {
+  background: RGBA(0, 51, 116, 1);
+  border-bottom: 1px RGBA(255, 255, 255, .5) solid;
+  width: 100%;
+  height: 58px;
+  z-index: 150;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  font-size: 20px;
+  color: RGBA(255, 255, 255, .7);
+  text-decoration: none;
+  border: 1px solid RGBA(255, 255, 255, .7);
+  padding: 4px 9px 4px 9px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  color: RGBA(0, 51, 116, 1);
+  background-color: RGBA(255, 255, 255, .7);
+}
+
+.linkDiv {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.title {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  text-align: right;
+  color: RGBA(255, 255, 255, .7);
+}
+
+.title span {
+  margin: 5px;
+}
+
+.title a {
+  color: RGBA(255, 255, 255, .7);
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  width: 80%;
+  height: 400px;
+  border: 1px solid RGBA(255, 255, 255, .7);
+  border-radius: 10px;
+  position: absolute;
+  top: 750px;
+  left: 10%;
+}
+
+.sectHead {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid RGBA(255, 255, 255, .7);
+}
+
+.sectHead span {
+  color: RGBA(255, 255, 255, .7);
+  font-size: 33px;
+  margin: 30px;
+}
+
+.sectBody {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.sectBody p {
+  color: RGBA(255, 255, 255, .7);
+  font-size: 23px;
+}
+
+
+
+
+
+
+
