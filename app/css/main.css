@@ -33,3 +33,12 @@ nav a {
   right: 100px;
   text-align: right;
   color: RGBA(255, 255, 255, 0.7); }
+
+#about {
+  width: 80%;
+  height: 400px;
+  border: 1px solid RGBA(255, 255, 255, 0.7);
+  border-radius: 10px;
+  position: absolute;
+  top: 800px;
+  left: 10%; }
