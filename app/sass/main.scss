@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.background {
+  background-image: url(../images/tree-801993.jpg);
+  width: 100%;
+  height: 2550px;
+  position: relative;
+}
+
+nav {
+  border-bottom: 1px RGBA(255, 255, 255, .5) solid;
+  height: 70px;
+  position: relative;
+}
+
+nav a {
+  font-size: 20px;
+  color: RGBA(255, 255, 255, .7);
+  text-decoration: none;
+  border: 1px solid RGBA(255, 255, 255, .7);
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.linkDiv {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.title {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  text-align: right;
+  color: RGBA(255, 255, 255, .7);
+}
+
+
+
+
+
