@@ -22,7 +22,6 @@
     "angular": "~1.4.1",
     "skrollr": "~0.6.30",
     "angular-material": "~0.10.0",
-    "font-awesome": "~4.4.0",
     "fontawesome": "~4.4.0"
   },
   "devDependencies": {

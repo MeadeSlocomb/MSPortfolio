@@ -4,7 +4,7 @@
   <title>MSlocomb - Front End Dev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vendor/normalize.css">
-  <link rel="stylesheet" href="css/vendor/font-awesome.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -20,6 +20,18 @@
         <span>770.896.7758</span>
         <span>||</span>
         <a href="mailto:meade.slocomb@gmail.com"><span>meade.slocomb@gmail.com</span></a>
+        <div class="icons">
+          <a class="iconLink" href="https://github.com/MeadeSlocomb">
+            <div>
+              <i class="fa fa-github"></i>
+            </div>
+          </a>
+          <a class="iconLink" href="https://www.linkedin.com/in/meadeslocomb">
+            <div>
+              <i class="fa fa-linkedin"></i>
+            </div>
+          </a>
+        </div>
       </header>
 
       <nav class="main-nav">
@@ -34,20 +46,40 @@
 
       <div class="main">
 
-        <div id="about">
+        <div id="about" data-200="opacity:0;" data-350="opacity:1;" data-500="opacity:0;">
           <div class="sectHead">
             <span>About Me</span>
           </div>
 
           <div class="sectBody">
             <p>Inspired by friends and family with experience in the field, I decided to make the radical career transition from management and financial bookkeeping to software development in January of 2015.  Too rarely in our modern world does a career offer the opportunity to produce a tangible and impactful product.  Web development affords that opportunity with the enormous benefit of being able to share that product across the globe.  With that in mind, it’s hard for for an unflinching optimist, big picture thinker, and humanist ideologue such as myself, to not be passionate about my field.</p>
-            <p>When I’m not slinging code, I enjoy being a game geek, sports nerd, and dog father.  I also enjoy backpacking and kayaking, music of (nearly) all varieties, and reading about history and politics.</p>
+            <p>When I’m not slinging code, I enjoy being a game geek, card shark, sports nerd, and dog father.  I also enjoy backpacking and kayaking, music of (nearly) all varieties, and reading about history and politics.</p>
+          </div>
+        </div>
+
+        <div id="portfolio" data-500="opacity:0;" data-650="opacity:1;" data-800="opacity:0;">
+          <div class="portfolioContainer">
+            <div class="sectHead">
+              <span>Portfolio</span>
+            </div>
+
+            <div class="project">
+              <div class="projPic"></div>
+              <div class="projTitle"></div>
+              <div class="projDesc"></div>
+            </div>
+
+            <div class="projMenu">
+              <div class="codebytesBtn"></div>
+              <div class="popquizBtn"></div>
+              <div class="bdbudgetBtn"></div>
+              <div class="visionQBtn"></div>
+            </div>
+
           </div>
         </div>
 
         <div id="resume"></div>
-
-        <div id="portfolio"></div>
 
         <div id="contact"></div>
 
@@ -62,6 +94,10 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/underscore.js"></script>
   <script src="js/vendor/angular.js"></script>
+  <script type="text/javascript" src="js/vendor/skrollr.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init();
+  </script>
 
   <!-- MAIN -->
   <script src="js/main.js"></script>
