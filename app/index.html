@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
+<body ng-app="MSPortfolio">
 
   <div class="container">
     <div class="background">
@@ -58,27 +58,7 @@
         </div>
 
         <div id="portfolio" data-500="opacity:0;" data-600="opacity:1;" data-700="opacity:1;" data-800="opacity:0;">
-          <div class="portfolioContainer">
-            <div class="sectHead">
-              <span>Portfolio</span>
-            </div>
-
-            <div class="project">
-              <div class="projPic">
-                <img src="images/codebytes.png">
-              </div>
-              <div class="projTitle"></div>
-              <div class="projDesc"></div>
-            </div>
-
-            <div class="projMenu">
-              <div class="codebytesBtn"></div>
-              <div class="popquizBtn"></div>
-              <div class="bdbudgetBtn"></div>
-              <div class="visionQBtn"></div>
-            </div>
-
-          </div>
+          <div ui-view></div>
         </div>
 
         <div id="resume"></div>
@@ -96,6 +76,7 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/underscore.js"></script>
   <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-ui-router.js"></script>
   <script type="text/javascript" src="js/vendor/skrollr.js"></script>
   <script type="text/javascript">
     var s = skrollr.init();
@@ -103,6 +84,7 @@
 
   <!-- MAIN -->
   <script src="js/main.js"></script>
+  <script src="js/portfolio.controller.js"></script>
 
 </body>
 </html>

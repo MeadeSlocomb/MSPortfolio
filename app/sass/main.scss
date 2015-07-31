@@ -174,9 +174,44 @@ nav a:hover {
   height: 200px;
 }
 
+.projTitle span{
+  position: absolute;
+  top: 90px;
+  left: 280px;
+  color: RGBA(0, 51, 116, 1);
+  font-size: 30px;
+}
 
+.projTagline span{
+  position: absolute;
+  top: 135px;
+  left: 280px;
+  color: RGBA(0, 51, 116, 1);
+  font-size: 20px;
+  font-style: italic;
+}
 
+.projDesc p{
+  position: absolute;
+  top: 160px;
+  left: 280px;
+  color: RGBA(0, 51, 116, 1);
+  font-size: 16px;
+  width: 50%;
+}
 
+.projGit {
+  position: absolute;
+  top: 275px;
+  left: 280px;
+  color: RGBA(0, 51, 116, 1);
+  font-style: italic;
+}
+
+.ghLink {
+  display: inline-block;
+  margin-left: 10px;
+}
 
 
 

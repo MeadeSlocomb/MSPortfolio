@@ -13,7 +13,7 @@
         .state('home', {
           url: '/',
           templateUrl: 'js/templates/portfolio.tpl.html',
-          controller: 'MainController'
+          controller: 'PortfolioController'
         });
 
     }
