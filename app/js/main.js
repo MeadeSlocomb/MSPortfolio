@@ -1,14 +1,22 @@
+(function() {
+  'use strict';
 
-// Scrolling nav menu
+  angular.module('MSPortfolio', ['ui.router'])
 
-  var  mn = $(".main-nav");
-      mns = "main-nav-scrolled";
-      hdr = $('header').height();
 
-  $(window).scroll(function() {
-    if( $(this).scrollTop() > hdr ) {
-      mn.addClass(mns);
-    } else {
-      mn.removeClass(mns);
+    .config([ '$stateProvider', '$urlRouterProvider',
+    function ($stateProvider, $urlRouterProvider) {
+
+      $urlRouterProvider.otherwise('/');
+
+      $stateProvider
+        .state('home', {
+          url: '/',
+          templateUrl: 'js/templates/portfolio.tpl.html',
+          controller: 'MainController'
+        });
+
     }
-  });
+  ]);
+
+}());
