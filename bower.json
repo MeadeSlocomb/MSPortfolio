@@ -22,7 +22,8 @@
     "angular": "~1.4.1",
     "skrollr": "~0.6.30",
     "angular-material": "~0.10.0",
-    "fontawesome": "~4.4.0"
+    "fontawesome": "~4.4.0",
+    "angular-ui-router": "~0.2.15"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
