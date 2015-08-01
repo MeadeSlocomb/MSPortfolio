@@ -26,6 +26,12 @@
         github: 'https://github.com/MeadeSlocomb/PopQuiz'
       };
 
+      $scope.displayedProj = $scope.codebytes;
+
+      $scope.changeProj = function(proj){
+        $scope.displayedProj = proj;
+      };
+
 
   }
 

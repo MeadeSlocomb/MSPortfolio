@@ -5,14 +5,14 @@
 
   <div class="project">
     <div class="projPic">
-      <a href="{{ codebytes.url }}"><img src="{{ codebytes.image }}"></a>
+      <a href="{{ displayedProj.url }}"><img src="{{ codebytes.image }}"></a>
     </div>
-    <div class="projTitle"><a href="{{ codebytes.url }}"><span>{{ codebytes.title }}</span></a></div>
-    <div class="projTagline"><span>{{ codebytes.tagline }}</span></div>
-    <div class="projDesc"><p>{{ codebytes.desc }}</p></div>
+    <div class="projTitle"><a href="{{ codebytes.url }}"><span>{{ displayedProj.title }}</span></a></div>
+    <div class="projTagline"><span>{{ displayedProj.tagline }}</span></div>
+    <div class="projDesc"><p>{{ displayedProj.desc }}</p></div>
     <div class="projGit">
       <span>More information on GitHub:</span>
-      <a class="ghLink" href="{{ codebytes.github }}">
+      <a class="ghLink" href="{{ displayedProj.github }}">
         <div>
           <i class="fa fa-github"></i>
         </div>
@@ -21,10 +21,18 @@
   </div>
 
   <div class="projMenu">
-    <div class="codebytesBtn btn"></div>
-    <div class="popquizBtn btn"></div>
-    <div class="bdbudgetBtn btn"></div>
-    <div class="visionQBtn btn"></div>
+    <div ng-click="changeProj(codebytes)" class="codebytesBtn btn"><img src="{{ codebytes.image}}"></div>
+    <span>{{ codebytes.title}}</span>
+
+    <div ng-click="changeProj(popquiz)" class="popquizBtn btn"><img src="{{ popquiz.image }}"></div>
+    <span>{{ popquiz.title}}</span>
+
+    <div class="bdbudgetBtn btn"><img src="" alt=""></div>
+    <span>{{ popquiz.title}}</span>
+
+    <div class="visionQBtn btn"><img src="" alt=""></div>
+    <span>{{ popquiz.title}}</span>
+
   </div>
 
 </div>
