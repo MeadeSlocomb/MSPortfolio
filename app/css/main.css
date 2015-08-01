@@ -139,6 +139,9 @@ nav a:hover {
   color: RGBA(0, 51, 116, 1);
   font-size: 30px; }
 
+.projTitle span:hover {
+  text-decoration: underline; }
+
 .projTagline span {
   position: absolute;
   top: 135px;
@@ -176,4 +179,4 @@ nav a:hover {
   height: 50px;
   border-radius: 100%;
   border: 2px solid RGBA(0, 51, 116, 1);
-  margin-bottom: 15px; }
+  margin-bottom: 18px; }
