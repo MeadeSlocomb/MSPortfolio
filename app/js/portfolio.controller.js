@@ -26,6 +26,17 @@
         github: 'https://github.com/MeadeSlocomb/PopQuiz'
       };
 
+      $scope.fud = {
+        title: 'FUD',
+        tagline: 'Fictional Fine Dining',
+        url: 'http://nickleach.github.io/Restaurant/',
+        image: 'images/fud.png',
+        desc: 'FUD was a collabortive assignment with fellow front end engineering students Nick Leach and Bobby Fine at The Iron Yard Academy.  The content for this mockup of a restaurant webpage was drawn from several APIs.',
+        github: 'https://github.com/nickleach/Restaurant'
+      };
+
+
+
       $scope.displayedProj = $scope.codebytes;
 
       $scope.changeProj = function(proj){
